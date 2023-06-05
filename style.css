@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: deeppink;
-  background: deeppink;
-}
-
-::selection {
-  color: deeppink;
-  background: deeppink;
-}
-
 @font-face {
  font-family: standardbook;
  src:url(fonts/standardbookwebfont.ttf);
@@ -30,39 +20,6 @@
 @font-face {
  font-family: standardbolditalic;
  src:url(fonts/standardbolditalicwebfont.ttf);
-}
-
-@font-face {
- font-family: CenSch;
- src:url(fonts/CenSch.ttf);
-}
-@font-face {
- font-family: CenSchIt;
- src:url(fonts/CenSchIt.ttf);
-}
-@font-face {
- font-family: CenturySchoolbookBoldItalicBT;
- src:url(fonts/CenturySchoolbookBoldItalicBT);
-}
-@font-face {
- font-family: CenturySchoolbookBT;
- src:url(fonts/CenturySchoolbookBT.ttf);
-}
-
-}
-@font-face {
- font-family: happytimesreg;
- src:url(fonts/happy-times-NG_regular_master_web.ttf);
-}
-
-@font-face {
- font-family: happytimesregital;
- src:url(fonts/happy-times-NG_italic_master_web.ttf);
-}
-
-@font-face {
- font-family: happytimesbold;
- src:url(fonts/happy-times-NG_bold_master_web.ttf);
 }
 
 
@@ -297,7 +254,7 @@ img:hover {
 #div2 {
   font-size: 1em;
      position: fixed;
- 	 bottom: 30%;
+ 	 bottom: 25%;
   	right: 10%;
      width: 50%;
      padding: 20px;
@@ -309,7 +266,7 @@ img:hover {
     height: auto;
 }
 
-@media (min-width: 900px) and (max-width: 1300px) {
+@media (min-width: 1100px) and (max-width: 1300px) {
   #div2 {
      bottom: 30%;
       top: auto;
@@ -319,7 +276,7 @@ img:hover {
   }
 }
 
-@media (min-width: 200px) and (max-width: 900px) {
+@media (min-width: 200px) and (max-width: 1100px) {
   #div2 {
      bottom: 30%;
   	right: 5%;
@@ -334,7 +291,7 @@ img:hover {
 button {
     background: none;
     border: none;
-    width: 200px;
+    width: 150px;
     float: right;
     display: block;
     padding: 0px;
@@ -347,7 +304,7 @@ button {
 
 @media (min-width: 200px) and (max-width: 900px) {
   button{
-    width: 150px;
+    width: 100px;
       right 5%;
   }
 }
