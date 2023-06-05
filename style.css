@@ -287,7 +287,7 @@ img:hover {
     max-height: auto;
      padding: 20px;
      z-index: 1200;
-     overflow: hidden;
+     overflow: auto;
 }
     
 
@@ -327,7 +327,6 @@ img:hover {
       height: 310px;
       font-size: 14px;
       overflow: auto;
-      color: red;
   }
 }
 
