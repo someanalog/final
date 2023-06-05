@@ -321,10 +321,10 @@ img:hover {
 
 @media (min-width: 200px) and (max-width: 900px) {
   #div2 {
-     bottom: 20%;
+     bottom: 30%;
   	right: 5%;
      width: 95%;
-      height: 310px;
+      height: 330px;
       font-size: 14px;
       overflow: auto;
   }
