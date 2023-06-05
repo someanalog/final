@@ -324,8 +324,10 @@ img:hover {
      bottom: 20%;
   	right: 5%;
      width: 95%;
-      height: auto;
+      height: 300px;
       font-size: 14px;
+      overflow: auto;
+      color: red;
   }
 }
 
