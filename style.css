@@ -265,18 +265,29 @@ img:hover {
     color: black;
     height: auto;
 }
+@media (min-width: 1500px) and (max-width: 1900px) {
+  #div2 {
+     bottom: 25%;
+      top: auto;
+  	right: 10%;
+     width: 60%;
+	  height:600px;
+      overflow:auto;
+  }
+}
 
-@media (min-width: 1100px) and (max-width: 1300px) {
+@media (min-width: 900px) and (max-width: 1500px) {
   #div2 {
      bottom: 30%;
       top: auto;
   	right: 10%;
      width: 80%;
-      height: auto;
+	  height:500px;
+      overflow:auto;
   }
 }
 
-@media (min-width: 200px) and (max-width: 1100px) {
+@media (min-width: 100px) and (max-width: 900px) {
   #div2 {
      bottom: 30%;
   	right: 5%;
